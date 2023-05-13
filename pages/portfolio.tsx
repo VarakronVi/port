@@ -1,6 +1,15 @@
 export default function Home() {
   return (
-    <div style={{ backgroundColor: "#1E3155", flexDirection: "column" }}>
+    <div
+      style={{
+        backgroundColor: "#1E3155",
+        flexDirection: "row",
+        display: "flex",
+      }}
+    >
+      <div style={{ marginLeft: "30px", marginTop: "30px" }}>
+        <img src="dog.jpeg" alt="Noolee" width="200" height="210" />
+      </div>
       <div>
         <h1
           style={{
@@ -8,7 +17,7 @@ export default function Home() {
             fontFamily: "Arial",
             color: "white",
             paddingTop: "50px",
-            paddingLeft: "350px",
+            paddingLeft: "100px",
           }}
         >
           My profile
@@ -19,7 +28,7 @@ export default function Home() {
               fontSize: 20,
               fontFamily: "Arial",
               color: "white",
-              paddingLeft: "350px",
+              paddingLeft: "100px",
             }}
           >
             name: Varakron Vimolgranjana
@@ -32,7 +41,7 @@ export default function Home() {
                 fontSize: 30,
                 fontFamily: "Arial",
                 color: "white",
-                paddingLeft: "350px",
+                paddingLeft: "100px",
               }}
             >
               My Skills
@@ -52,7 +61,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <img src="dog.jpeg" alt="Noolee" width="200" height="210" />
     </div>
   )
 }
